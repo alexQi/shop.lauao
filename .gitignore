@@ -3,5 +3,6 @@
 #/nginx.conf
 #/upload
 #/protected/config.php
+/.idea
 /protected/cache
 #/protected/view/adv
