@@ -1,6 +1,6 @@
 <?php 
 return array (
-  'site_name' => '',
+  'site_name' => 'Lauao 商城系统',
   'home_title' => 'Lauao 商城系统',
   'home_keywords' => '',
   'home_description' => '',
@@ -19,7 +19,7 @@ return array (
   'smtp_secure' => '',
   'admin_mult_ip_login' => '0',
   'upload_goods_filesize' => 307200.0,
-  'visitor_stats' => '0',
+  'visitor_stats' => '1',
   'goods_hot_searches' => '',
   'cate_goods_per_num' => '20',
   'goods_history_num' => '5',
@@ -77,8 +77,8 @@ return array (
   'user_review_approve' => '0',
   'rewrite_enable' => '1',
   'data_cache_lifetime' => '0',
-  'goods_fulltext_query' => '0',
-  'debug' => '0',
+  'goods_fulltext_query' => '1',
+  'debug' => '1',
   'rewrite_rule' => 
   array (
     'm/pay/return/<pcode>.html' => 'mobile/pay/return',
@@ -92,6 +92,6 @@ return array (
     'index.html' => 'main/index',
     '<c>/<a>.html' => '<c>/<a>',
   ),
-  'encrypt_key' => '',
-  'http_host' => 'http://shop.lauao.test',
+  'encrypt_key' => 'nyqaqWrk8ckkeigEvbvxblpYFfBI9JKm',
+  'http_host' => 'http://shop.lauao.com',
 );
