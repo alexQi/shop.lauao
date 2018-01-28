@@ -22,8 +22,11 @@ return array
     ),
     'wechat' => array
     (
-        'token'     => 'tianruiyuan',
-        'appId'     => 'wx1bfc2ed71e8d48e3',
-        'appSecret' => 'c43a4f7aac4863b667d9863d0051f6d2',
+        'AppID'     => 'wx1bfc2ed71e8d48e3',
+        'AppSecret' => 'c43a4f7aac4863b667d9863d0051f6d2',
+        'Token'     => 'tianruiyuan',
+        'ApiUrl'    => 'api.weixin.qq.com',
+        'EncodingAESKey' => '1hfZHDMMGjSvL2sehimtkxpgdVJ88lAm7GL7Fv1DawK',
+        'getToken'  => 'https://api.weixin.qq.com/cgi-bin/token',
     )
 );

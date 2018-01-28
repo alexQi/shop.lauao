@@ -45,6 +45,7 @@ class wechat extends abstract_oauth
 
     public function checkSignature()
     {
+        log::write(json_encode($_GET));
         if (!isset($_GET["signature"]) || !isset($_GET["timestamp"]) || !isset($_GET["nonce"]))
         {
             return false;
@@ -53,7 +54,7 @@ class wechat extends abstract_oauth
         $timestamp = $_GET["timestamp"];
         $nonce     = $_GET["nonce"];
 
-        $token = $GLOBALS['wechat']['token'];
+        $token = $GLOBALS['wechat']['Token'];
         $tmpArr = array($token, $timestamp, $nonce);
         // use SORT_STRING rule
         sort($tmpArr, SORT_STRING);
