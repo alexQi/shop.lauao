@@ -22,8 +22,33 @@ class general_controller extends Controller
         }else{
             //获取用户openId
             $wechat = plugin::instance('oauth', 'wechat');
-            $wechatUser = $wechat->get_user_info();
-            var_dump($wechatUser);die();
+            $wechatUser = $wechat->getAccessToken();
+
+            if (empty($_SESSION['USER']['USER_ID']))
+            {
+
+                $client_ip = get_ip();
+                if($cookie = request('USER_STAYED', null, 'cookie'))
+                {
+                    $user_model = new user_model();
+                    $user_model->check_stayed($cookie, $client_ip);
+                }else{
+                    //判断当前用户是否存在
+                    $user_model = new user_model();
+                    if($user = $user_model->find(array('open_id' => $wechatUser->openid)))
+                    {
+                        if(request('stay')) $user_model->stay_login($user['user_id'], $user['password'], $client_ip);
+                        $user_model->set_logined_info($client_ip, $user['user_id'], $user['username'], $user['avatar']);
+                    }
+                    else
+                    {
+                        //获取用户信息
+                        $wechatUserInfo = $wechat->get_user_info($wechatUser->access_token,$wechatUser->openid);
+                        var_dump($wechatUserInfo);die();
+                    }
+                }
+            }
+
             return true;
         }
     }
