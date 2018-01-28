@@ -6,7 +6,7 @@ class main_controller extends general_controller
         $wechat = plugin::instance('oauth', 'wechat');
         if ($wechat->checkSignature())
         {
-            echo $_GET["nonce"];
+            echo $_GET["echostr"];
         }
         die();
         if(is_mobile_device() && request('display') != 'pc') jump(url('mobile/main', 'index'));
