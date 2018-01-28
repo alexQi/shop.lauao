@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1877066-6a0a-44e3-92a3-131376ae9d4e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin/wechat/wechat.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/oauth/wechat.php" afterPath="$PROJECT_DIR$/plugin/oauth/wechat.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controller/mobile/general_controller.php" afterPath="$PROJECT_DIR$/protected/controller/mobile/general_controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/include/functions.php" afterPath="$PROJECT_DIR$/protected/include/functions.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,8 +47,8 @@
       <file leaf-file-name="general_controller.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/controller/mobile/general_controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="202">
+              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -267,12 +264,12 @@
       <workItem from="1516629661469" duration="1173000" />
       <workItem from="1516631003015" duration="2057000" />
       <workItem from="1516633589143" duration="2439000" />
-      <workItem from="1517105831263" duration="8963000" />
+      <workItem from="1517105831263" duration="9041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15319000" />
+    <option name="totallyTimeSpent" value="15397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="705" extended-state="0" />
@@ -743,8 +740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controller/mobile/general_controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="202">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
           <folding />
         </state>
       </provider>
