@@ -61,6 +61,8 @@ class wechat extends abstract_oauth
         $tmpStr = implode( $tmpArr );
         $tmpStr = sha1( $tmpStr );
 
+        log::write($tmpStr);
+
         if( $tmpStr == $signature ){
             return true;
         }else{

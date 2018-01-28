@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c1877066-6a0a-44e3-92a3-131376ae9d4e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controller/main_controller.php" afterPath="$PROJECT_DIR$/protected/controller/main_controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/oauth/wechat.php" afterPath="$PROJECT_DIR$/plugin/oauth/wechat.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wechat.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wechat.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugin/oauth/wechat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="35" />
+            <state relative-caret-position="302">
+              <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -64,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_controller.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_controller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controller/main_controller.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -95,9 +95,9 @@
         <option value="$PROJECT_DIR$/protected/controller/mobile/main_controller.php" />
         <option value="$PROJECT_DIR$/protected/config.php" />
         <option value="$PROJECT_DIR$/protected/lib/log.php" />
-        <option value="$PROJECT_DIR$/plugin/oauth/wechat.php" />
         <option value="$PROJECT_DIR$/protected/cache/log/Log_2018_01_28.log" />
         <option value="$PROJECT_DIR$/protected/controller/main_controller.php" />
+        <option value="$PROJECT_DIR$/plugin/oauth/wechat.php" />
       </list>
     </option>
   </component>
@@ -251,12 +251,12 @@
       <workItem from="1516629661469" duration="1173000" />
       <workItem from="1516631003015" duration="2057000" />
       <workItem from="1516633589143" duration="2439000" />
-      <workItem from="1517105831263" duration="4678000" />
+      <workItem from="1517105831263" duration="4789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11034000" />
+    <option name="totallyTimeSpent" value="11145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="705" extended-state="0" />
@@ -314,14 +314,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/install/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2294">
@@ -696,14 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/oauth/wechat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/controller/mobile/main_controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -716,6 +700,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_defines.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3054">
+          <caret line="775" column="9" lean-forward="false" selection-start-line="775" selection-start-column="9" selection-end-line="775" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/oauth/wechat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
           <folding />
         </state>
       </provider>
