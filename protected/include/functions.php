@@ -22,6 +22,16 @@ function jump($url, $delay = 0)
     echo "<html><head><meta http-equiv='refresh' content='{$delay};url={$url}'></head><body></body></html>";
     exit;
 }
+
+function redirect($url)
+{
+    if (isset($url))
+    {
+        Header("HTTP/1.1 302 See Other");
+        Header("Location: $url");
+        exit;
+    }
+}
 /**
  * 数据加密
  */
