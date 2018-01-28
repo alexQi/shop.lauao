@@ -44,7 +44,17 @@ class general_controller extends Controller
                     {
                         //获取用户信息
                         $wechatUserInfo = $wechat->get_user_info($wechatUser->access_token,$wechatUser->openid);
-                        var_dump($wechatUserInfo);die();
+                        $data = array
+                        (
+                            'username' => $wechatUserInfo['nickname'],
+                            'email'    => '',
+                            'password' => '123456',
+                            'avatar'   => $wechatUserInfo['headimgurl'],
+                            'open_id'  => $wechatUserInfo['openid'],
+                            'repassword' => '',
+                            'captcha'  => '',
+                        );
+                        $user_model->register($data);
                     }
                 }
             }
