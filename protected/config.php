@@ -5,7 +5,7 @@ return array
 (
     'mysql' => array
     (
-        'MYSQL_HOST' => '127.0.0.1',
+        'MYSQL_HOST' => 'shop.lauao.com',
         'MYSQL_PORT' => '3306',
         'MYSQL_USER' => 'root',
         'MYSQL_DB'   => 'akmall',
@@ -20,4 +20,10 @@ return array
         'RELEASE' => '20161112',
         'COMMENCED' => '1516204800',
     ),
+    'wechat' => array
+    (
+        'token'     => 'tianruiyuan',
+        'appId'     => 'wx1bfc2ed71e8d48e3',
+        'appSecret' => 'c43a4f7aac4863b667d9863d0051f6d2',
+    )
 );
