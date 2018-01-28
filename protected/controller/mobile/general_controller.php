@@ -12,15 +12,17 @@ class general_controller extends Controller
             'theme' => $GLOBALS['cfg']['http_host'] . '/public/theme/mobile/' . $GLOBALS['cfg']['enabled_theme'],
         );
         //utilities::crontab();
+
         $client_ip = get_ip();
-        var_dump($_SESSION['USER']['USER_ID']);die();
         if (empty($_SESSION['USER']['USER_ID']))
         {
             $user_model = new user_model();
             if($cookie = request('USER_STAYED', null, 'cookie'))
             {
+                var_dump($cookie);die();
                 $user_model->check_stayed($cookie, $client_ip);
             }else{
+                echo 222;die();
                 if (!isset($_GET['code']))
                 {
                     $realUrl = 'http://'.$_SERVER['HTTP_HOST'].'/m/index.html';
