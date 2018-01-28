@@ -29,7 +29,12 @@ class wechat extends abstract_oauth
 
     public function get_user_info($access_token, $oauth_key)
     {
-
+        $param['appid']      = $GLOBALS['wechat']['AppID'];
+        $param['secret']     = $GLOBALS['wechat']['AppSecret'];
+        $param['code']       = $_GET['code'];
+        $param['grant_type'] = 'authorization_code';
+        $res = httpRequest('https://api.weixin.qq.com/sns/oauth2/access_token',$param);
+        return json_decode($res);
     }
 
     public function valid()

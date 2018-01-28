@@ -22,7 +22,7 @@ class general_controller extends Controller
         }else{
             //获取用户openId
             $wechat = plugin::instance('oauth', 'wechat');
-            $wechatUser = $wechat->getAccessToken();
+            $wechatUser = $wechat->get_user_info();
             var_dump($wechatUser);die();
             return true;
         }
