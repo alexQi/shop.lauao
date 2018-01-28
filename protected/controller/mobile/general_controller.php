@@ -16,7 +16,7 @@ class general_controller extends Controller
         //确认是否授权微信
         if (!isset($_GET['code']))
         {
-            $realUrl = $_SERVER['HTTP_HOST'];
+            $realUrl = 'http://'.$_SERVER['HTTP_HOST'];
             $url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$GLOBALS['wechat']['AppID'].'&redirect_uri='.urlencode($realUrl).'&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect';
             log::write($url);
             return redirect($url);
