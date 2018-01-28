@@ -4,6 +4,7 @@
     <list default="true" id="c1877066-6a0a-44e3-92a3-131376ae9d4e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controller/main_controller.php" afterPath="$PROJECT_DIR$/protected/controller/main_controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controller/mobile/main_controller.php" afterPath="$PROJECT_DIR$/protected/controller/mobile/main_controller.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,21 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_controller.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main_controller.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/controller/mobile/main_controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="68">
+              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_controller.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main_controller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controller/main_controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="85">
+              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="10" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -92,12 +93,12 @@
         <option value="$PROJECT_DIR$/protected/view/backend/lib/header.html" />
         <option value="$USER_HOME$/wwwrootgitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/protected/controller/mobile/main_controller.php" />
         <option value="$PROJECT_DIR$/protected/config.php" />
         <option value="$PROJECT_DIR$/protected/lib/log.php" />
         <option value="$PROJECT_DIR$/protected/cache/log/Log_2018_01_28.log" />
         <option value="$PROJECT_DIR$/plugin/oauth/wechat.php" />
         <option value="$PROJECT_DIR$/protected/controller/main_controller.php" />
+        <option value="$PROJECT_DIR$/protected/controller/mobile/main_controller.php" />
       </list>
     </option>
   </component>
@@ -251,12 +252,12 @@
       <workItem from="1516629661469" duration="1173000" />
       <workItem from="1516631003015" duration="2057000" />
       <workItem from="1516633589143" duration="2439000" />
-      <workItem from="1517105831263" duration="4866000" />
+      <workItem from="1517105831263" duration="5077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11222000" />
+    <option name="totallyTimeSpent" value="11433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="705" extended-state="0" />
@@ -688,14 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controller/mobile/main_controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_defines.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3054">
@@ -714,8 +707,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controller/main_controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controller/mobile/main_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding />
         </state>
       </provider>

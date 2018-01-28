@@ -3,9 +3,6 @@ class main_controller extends general_controller
 {
     public function action_index()
     {
-        $wechat = plugin::instance('oauth', 'wechat');
-        return $wechat->checkSignature();
-        die();
         $this->hot_searches = !empty($GLOBALS['cfg']['goods_hot_searches']) ? explode(',', $GLOBALS['cfg']['goods_hot_searches']) : null;
         
         $vcache = vcache::instance();
