@@ -27,7 +27,7 @@ class wechat extends abstract_oauth
 
     }
 
-    public function get_user_info($access_token, $oauth_key)
+    public function get_user_info($access_token='', $oauth_key='')
     {
         $param['appid']      = $GLOBALS['wechat']['AppID'];
         $param['secret']     = $GLOBALS['wechat']['AppSecret'];
