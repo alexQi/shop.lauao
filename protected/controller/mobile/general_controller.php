@@ -11,7 +11,7 @@ class general_controller extends Controller
             'baseurl' => $GLOBALS['cfg']['http_host'],
             'theme' => $GLOBALS['cfg']['http_host'] . '/public/theme/mobile/' . $GLOBALS['cfg']['enabled_theme'],
         );
-        utilities::crontab();
+//        utilities::crontab();
 
         //确认是否授权微信
         if (!isset($_GET['code']))
