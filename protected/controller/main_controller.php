@@ -3,6 +3,9 @@ class main_controller extends general_controller
 {
     public function action_index()
     {
+        $wechat = plugin::instance('oauth', 'wechat');
+        return $wechat->checkSignature();
+        die();
         if(is_mobile_device() && request('display') != 'pc') jump(url('mobile/main', 'index'));
         
         $vcache = vcache::instance();
