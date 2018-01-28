@@ -72,9 +72,9 @@ class wechat extends abstract_oauth
 
     public function getAccessToken(){
         $param['grant_type'] = 'client_credential';
-        $param['appid']      = yii::$app->params['wechat']['AppID'];
-        $param['secret']     = yii::$app->params['wechat']['AppSecret'];
-        $res = Common::httpRequest(yii::$app->params['wechat']['getToken'],$param,'post');
+        $param['appid']      = $GLOBALS['wechat']['AppID'];
+        $param['secret']     = $GLOBALS['wechat']['AppSecret'];
+        $res = httpRequest($GLOBALS['wechat']['getToken'],$param,'post');
         return json_decode($res);
     }
 
@@ -84,8 +84,6 @@ class wechat extends abstract_oauth
         libxml_disable_entity_loader(true);
         $data = simplexml_load_string($fileContent, 'SimpleXMLElement', LIBXML_NOCDATA);
         $data = json_encode($data);
-
-        yii::info($data,'wechat.message');
 
         $data = json_decode($data, true);
         if (!empty($data)){
@@ -148,7 +146,7 @@ class wechat extends abstract_oauth
 
 
         $this->msgType = $this->msgType == 'event' || $this->msgType == 'voice' ? 'text':$this->msgType;
-        $this->msgTpl  = yii::$app->params['wechat']['tpl'][$this->msgType];
+        $this->msgTpl  = $GLOBALS['wechat']['tpl'][$this->msgType];
     }
 
     public function sendMsg(){

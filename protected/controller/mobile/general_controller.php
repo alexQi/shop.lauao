@@ -20,6 +20,10 @@ class general_controller extends Controller
             $url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$GLOBALS['wechat']['AppID'].'&redirect_uri='.urlencode($realUrl).'&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect';
             redirect($url);
         }else{
+            //获取用户openId
+            $wechat = plugin::instance('oauth', 'wechat');
+            $wechatUser = wechat::getAccessToken();
+            var_dump($wechatUser);die();
             return true;
         }
     }
