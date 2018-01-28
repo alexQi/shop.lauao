@@ -17,8 +17,8 @@ class general_controller extends Controller
         if (!isset($_GET['code']))
         {
             $realUrl = $_SERVER['HTTP_HOST'];
-            log::write($realUrl);
             $url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$GLOBALS['wechat']['AppID'].'&redirect_uri='.urlencode($realUrl).'&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect';
+            log::write($realUrl);
             return redirect($url);
         }else{
             return true;
