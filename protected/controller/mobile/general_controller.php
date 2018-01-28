@@ -17,45 +17,40 @@ class general_controller extends Controller
         if (empty($_SESSION['USER']['USER_ID']))
         {
             $user_model = new user_model();
-            if($cookie = request('USER_STAYED', null, 'cookie'))
+
+            if (!isset($_GET['code']))
             {
-                var_dump($cookie);die();
-                $user_model->check_stayed($cookie, $client_ip);
-            }else{
-                echo 222;die();
-                if (!isset($_GET['code']))
-                {
-                    $realUrl = 'http://'.$_SERVER['HTTP_HOST'].'/m/index.html';
-                    $url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$GLOBALS['wechat']['AppID'].'&redirect_uri='.urlencode($realUrl).'&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect';
-                    redirect($url);
-                }
-                //获取用户openId
-                $wechat = plugin::instance('oauth', 'wechat');
-                $wechatUser = $wechat->getAccessToken();
+                $realUrl = 'http://'.$_SERVER['HTTP_HOST'].'/m/index.html';
+                $url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$GLOBALS['wechat']['AppID'].'&redirect_uri='.urlencode($realUrl).'&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect';
+                redirect($url);
+            }
+            //获取用户openId
+            $wechat = plugin::instance('oauth', 'wechat');
+            $wechatUser = $wechat->getAccessToken();
 //              var_dump($wechatUser);die();
 
-                if($user = $user_model->find(array('open_id' => $wechatUser->openid)))
-                {
-                    if(request('stay')) $user_model->stay_login($user['user_id'], $user['password'], $client_ip);
-                    $user_model->set_logined_info($client_ip, $user['user_id'], $user['username'], $user['avatar']);
-                }
-                else
-                {
-                    //获取用户信息
-                    $wechatUserInfo = $wechat->get_user_info($wechatUser->access_token,$wechatUser->openid);
-                    $data = array
-                    (
-                        'username' => $wechatUserInfo['nickname'],
-                        'email'    => '',
-                        'password' => '123456',
-                        'avatar'   => $wechatUserInfo['headimgurl'],
-                        'open_id'  => $wechatUserInfo['openid'],
-                        'repassword' => '',
-                        'captcha'  => '',
-                    );
-                    $user_model->register($data);
-                }
+            if($user = $user_model->find(array('open_id' => $wechatUser->openid)))
+            {
+                if(request('stay')) $user_model->stay_login($user['user_id'], $user['password'], $client_ip);
+                $user_model->set_logined_info($client_ip, $user['user_id'], $user['username'], $user['avatar']);
             }
+            else
+            {
+                //获取用户信息
+                $wechatUserInfo = $wechat->get_user_info($wechatUser->access_token,$wechatUser->openid);
+                $data = array
+                (
+                    'username' => $wechatUserInfo['nickname'],
+                    'email'    => '',
+                    'password' => '123456',
+                    'avatar'   => $wechatUserInfo['headimgurl'],
+                    'open_id'  => $wechatUserInfo['openid'],
+                    'repassword' => '',
+                    'captcha'  => '',
+                );
+                $user_model->register($data);
+            }
+
         }
         return true;
     }
