@@ -13,6 +13,7 @@ class general_controller extends Controller
         );
         //utilities::crontab();
         $client_ip = get_ip();
+        var_dump($_SESSION['USER']['USER_ID']);die();
         if (empty($_SESSION['USER']['USER_ID']))
         {
             $user_model = new user_model();
