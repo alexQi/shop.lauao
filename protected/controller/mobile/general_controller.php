@@ -22,7 +22,7 @@ class general_controller extends Controller
             }else{
                 if (!isset($_GET['code']))
                 {
-                    $realUrl = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+                    $realUrl = 'http://'.$_SERVER['HTTP_HOST'].'/m/index.html';
                     $url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$GLOBALS['wechat']['AppID'].'&redirect_uri='.urlencode($realUrl).'&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect';
                     redirect($url);
                 }
