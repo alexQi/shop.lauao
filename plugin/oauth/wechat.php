@@ -45,7 +45,7 @@ class wechat extends abstract_oauth
 
     public function checkSignature()
     {
-        log::write(json_encode($_GET));
+//        log::write(json_encode($_GET));
         if (!isset($_GET["signature"]) || !isset($_GET["timestamp"]) || !isset($_GET["nonce"]))
         {
             return false;
@@ -61,7 +61,7 @@ class wechat extends abstract_oauth
         $tmpStr = implode( $tmpArr );
         $tmpStr = sha1( $tmpStr );
 
-        log::write($tmpStr);
+//        log::write($tmpStr);
 
         if( $tmpStr == $signature ){
             return true;
