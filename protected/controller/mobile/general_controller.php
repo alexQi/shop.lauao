@@ -14,16 +14,12 @@ class general_controller extends Controller
 //        utilities::crontab();
 
         //确认是否授权微信
-        if (!isset($_GET['code']))
+        if (empty($_SESSION['USER']['USER_ID']) && !isset($_GET['code']))
         {
             $realUrl = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
             $url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$GLOBALS['wechat']['AppID'].'&redirect_uri='.urlencode($realUrl).'&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect';
             redirect($url);
         }else{
-            //获取用户openId
-            $wechat = plugin::instance('oauth', 'wechat');
-            $wechatUser = $wechat->getAccessToken();
-
             if (empty($_SESSION['USER']['USER_ID']))
             {
 
@@ -33,6 +29,10 @@ class general_controller extends Controller
                     $user_model = new user_model();
                     $user_model->check_stayed($cookie, $client_ip);
                 }else{
+                    //获取用户openId
+                    $wechat = plugin::instance('oauth', 'wechat');
+                    $wechatUser = $wechat->getAccessToken();
+                    var_dump($wechatUser);die();
                     //判断当前用户是否存在
                     $user_model = new user_model();
                     if($user = $user_model->find(array('open_id' => $wechatUser->openid)))
