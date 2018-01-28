@@ -11,56 +11,50 @@ class general_controller extends Controller
             'baseurl' => $GLOBALS['cfg']['http_host'],
             'theme' => $GLOBALS['cfg']['http_host'] . '/public/theme/mobile/' . $GLOBALS['cfg']['enabled_theme'],
         );
-//        utilities::crontab();
-
-        //确认是否授权微信
-        if (empty($_SESSION['USER']['USER_ID']) && !isset($_GET['code']))
+        //utilities::crontab();
+        $client_ip = get_ip();
+        if (empty($_SESSION['USER']['USER_ID']))
         {
-            $realUrl = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-            $url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$GLOBALS['wechat']['AppID'].'&redirect_uri='.urlencode($realUrl).'&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect';
-            redirect($url);
-        }else{
-            if (empty($_SESSION['USER']['USER_ID']))
+            $user_model = new user_model();
+            if($cookie = request('USER_STAYED', null, 'cookie'))
             {
-
-                $client_ip = get_ip();
-                if($cookie = request('USER_STAYED', null, 'cookie'))
+                $user_model->check_stayed($cookie, $client_ip);
+            }else{
+                if (!isset($_GET['code']))
                 {
-                    $user_model = new user_model();
-                    $user_model->check_stayed($cookie, $client_ip);
-                }else{
-                    //获取用户openId
-                    $wechat = plugin::instance('oauth', 'wechat');
-                    $wechatUser = $wechat->getAccessToken();
-                    var_dump($wechatUser);die();
-                    //判断当前用户是否存在
-                    $user_model = new user_model();
-                    if($user = $user_model->find(array('open_id' => $wechatUser->openid)))
-                    {
-                        if(request('stay')) $user_model->stay_login($user['user_id'], $user['password'], $client_ip);
-                        $user_model->set_logined_info($client_ip, $user['user_id'], $user['username'], $user['avatar']);
-                    }
-                    else
-                    {
-                        //获取用户信息
-                        $wechatUserInfo = $wechat->get_user_info($wechatUser->access_token,$wechatUser->openid);
-                        $data = array
-                        (
-                            'username' => $wechatUserInfo['nickname'],
-                            'email'    => '',
-                            'password' => '123456',
-                            'avatar'   => $wechatUserInfo['headimgurl'],
-                            'open_id'  => $wechatUserInfo['openid'],
-                            'repassword' => '',
-                            'captcha'  => '',
-                        );
-                        $user_model->register($data);
-                    }
+                    $realUrl = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+                    $url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.$GLOBALS['wechat']['AppID'].'&redirect_uri='.urlencode($realUrl).'&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect';
+                    redirect($url);
+                }
+                //获取用户openId
+                $wechat = plugin::instance('oauth', 'wechat');
+                $wechatUser = $wechat->getAccessToken();
+//              var_dump($wechatUser);die();
+
+                if($user = $user_model->find(array('open_id' => $wechatUser->openid)))
+                {
+                    if(request('stay')) $user_model->stay_login($user['user_id'], $user['password'], $client_ip);
+                    $user_model->set_logined_info($client_ip, $user['user_id'], $user['username'], $user['avatar']);
+                }
+                else
+                {
+                    //获取用户信息
+                    $wechatUserInfo = $wechat->get_user_info($wechatUser->access_token,$wechatUser->openid);
+                    $data = array
+                    (
+                        'username' => $wechatUserInfo['nickname'],
+                        'email'    => '',
+                        'password' => '123456',
+                        'avatar'   => $wechatUserInfo['headimgurl'],
+                        'open_id'  => $wechatUserInfo['openid'],
+                        'repassword' => '',
+                        'captcha'  => '',
+                    );
+                    $user_model->register($data);
                 }
             }
-
-            return true;
         }
+        return true;
     }
     
     protected function compiler($tpl)
