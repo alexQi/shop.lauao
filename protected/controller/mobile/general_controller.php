@@ -14,7 +14,7 @@ class general_controller extends Controller
         utilities::crontab();
 //        return ;
         $client_ip = get_ip();
-        if (!empty($_SESSION['USER']['USER_ID']))
+        if (empty($_SESSION['USER']['USER_ID']))
         {
             $user_model = new user_model();
 
@@ -29,8 +29,8 @@ class general_controller extends Controller
             $wechatUser = $wechat->getAccessToken();
 //              var_dump($wechatUser);die();
 
-            if(false)
-//                if($user = $user_model->find(array('open_id' => $wechatUser->openid)))
+
+            if($user = $user_model->find(array('open_id' => $wechatUser->openid)))
             {
                 if(request('stay')) $user_model->stay_login($user['user_id'], $user['password'], $client_ip);
                 $user_model->set_logined_info($client_ip, $user['user_id'], $user['username'], $user['avatar']);
@@ -39,7 +39,6 @@ class general_controller extends Controller
             {
                 //获取用户信息
                 $wechatUserInfo = $wechat->get_user_info($wechatUser->access_token,$wechatUser->openid);
-                var_dump($wechatUserInfo);die();
                 $data = array
                 (
                     'username' => $wechatUserInfo['nickname'],

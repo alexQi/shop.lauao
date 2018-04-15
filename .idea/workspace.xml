@@ -27,8 +27,8 @@
       <file leaf-file-name="general_controller.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/controller/mobile/general_controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -263,12 +263,12 @@
       <workItem from="1519988640439" duration="330000" />
       <workItem from="1520568105663" duration="7000" />
       <workItem from="1523272583009" duration="542000" />
-      <workItem from="1523771884198" duration="13184000" />
+      <workItem from="1523771884198" duration="13298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35416000" />
+    <option name="totallyTimeSpent" value="35530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="699" extended-state="6" />
@@ -729,8 +729,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controller/mobile/general_controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
           <folding />
         </state>
       </provider>
