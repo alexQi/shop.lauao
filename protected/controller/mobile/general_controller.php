@@ -11,8 +11,8 @@ class general_controller extends Controller
             'baseurl' => $GLOBALS['cfg']['http_host'],
             'theme' => $GLOBALS['cfg']['http_host'] . '/public/theme/mobile/' . $GLOBALS['cfg']['enabled_theme'],
         );
-        //utilities::crontab();
-
+        utilities::crontab();
+        return ;
         $client_ip = get_ip();
         if (empty($_SESSION['USER']['USER_ID']))
         {

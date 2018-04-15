@@ -2,8 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1877066-6a0a-44e3-92a3-131376ae9d4e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controller/mobile/general_controller.php" afterPath="$PROJECT_DIR$/protected/controller/mobile/general_controller.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/data/47f1853c1ad8207d5219ba98beea067e.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/data/86f100b665b80213223937391bf73d3b.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/data/c231100a1d1d121482bd2a11c2293c51.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/data/d9c7731373d20d5cc1048b2f93801c59.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/data/d9d5e8ba0de239ac987f1f05ccda9d3a.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/setting.php" afterPath="$PROJECT_DIR$/protected/cache/setting.php" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/004756ce2f2cd0ee73ca16ed81a67167.1516262792.database_backup.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/01cf877a66b7b735b3730ea50bfdf29c.1516262792.alipay_config.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/06c28d4b46bf0b1eb5cdae31357c516a.1516262792.home.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/1591f079962427522e71b81086866b43.1516262792.other.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/217a436f7953b0dcb43fe11c8bbe4b34.1516262792.file_upload.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/24ee81d6aab5660799de2ac87a666796.1516262792.reset_password.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/2becd7fc126292537541f355aaa2a7a8.1516262792.index.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/3d2778fd7813d11fc7915fdd9a93d9d2.1516262792.theme.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/3e582ebfd53c4bed520d919146822da6.1516262792.index.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/406ef8d72dc9c634e89ddda77fc8d6b2.1516262792.user.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/445d9aca009172645a99de836b5b6489.1516262792.user_list.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/52e1e8b4597138a8ce185f1d81774b2f.1516262792.cart.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/53302f5e70d2542b0acaa67e41d95afb.1516262792.rewrite.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/610cee019c20f11b1236859148c8369e.1516262792.user.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/68b84f781bf2628e91cd07b02a296900.1516262792.method_list.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/6d904f14d0982b2dccc853fc966338da.1516262792.footer.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/806dda736fcddcbb0b9f30ed96e223bd.1516262792.revise_account.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/82313668628d824850a31a5caaed9e1b.1516262792.mail_server.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/845d9bf4789ffd44ff22cec187f2602c.1516262792.carrier_list.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/8ce3a779e53c0cf6b5c992bd2d0ad222.1516262792.user_order_details.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/902597e602fec42f0553e0c58369be61.1516262792.goods.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/918d7cbe286b6448c0a9f0b0977572e1.1516262792.profile.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/95d8c33b531b0883aedc2a987e9ba27b.1516262792.meta.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/a91bda381de1f2f4e608ecdf826a327e.1516262792.method_list.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/ac7c0547fd43c8547ab8c5a2414a95cb.1516262792.method.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/b7e5840508d880af203cc5c572eb3db8.1516262792.user_order_list.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/b9c9bcafd593a17d3e0057838ed53ae1.1516262792.file_list.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/bd37801669775e65e39e12f8fc013c38.1516262792.prompt.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/c8545d3637cb178883d7b445bfba24c0.1516262792.captcha.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/cc076ec7ad63c52de4ccaaecb2b7e29f.1516262792.group_list.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/d7b26cf97e7f78b73dca1410b8ded680.1516630221.panel.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/d7f2c8a0f149bbca15208d9a3601f286.1516262792.database_restore.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/d8e721de39d6bd2e4de80bce049099b4.1516262792.global.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/db5006f66318a18f48780448cefeb41f.1516262792.nav_list.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/dcd80db2f185c30bc4dad9a01337a355.1516262792.dashboard.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/e4d564b7e18186fe65a54d7572fb9f40.1516262792.user_index.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/f839cad79194e36f0d0ea10bbb9f484c.1516262792.file_rename.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/template/f91c6c1bf051e33733d44f38f9434564.1516262792.meta.html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/protected/config.php" afterPath="$PROJECT_DIR$/protected/config.php" />
+      <change beforePath="$PROJECT_DIR$/protected/controller/backend/main_controller.php" afterPath="$PROJECT_DIR$/protected/controller/backend/main_controller.php" />
+      <change beforePath="$PROJECT_DIR$/protected/controller/mobile/general_controller.php" afterPath="$PROJECT_DIR$/protected/controller/mobile/general_controller.php" />
+      <change beforePath="$PROJECT_DIR$/protected/resources/timer.txt" afterPath="$PROJECT_DIR$/protected/resources/timer.txt" />
+      <change beforePath="$PROJECT_DIR$/protected/view/backend/index.html" afterPath="$PROJECT_DIR$/protected/view/backend/index.html" />
+      <change beforePath="$PROJECT_DIR$/protected/view/backend/lib/header.html" afterPath="$PROJECT_DIR$/protected/view/backend/lib/header.html" />
+      <change beforePath="$PROJECT_DIR$/protected/view/backend/lib/meta.html" afterPath="$PROJECT_DIR$/protected/view/backend/lib/meta.html" />
+      <change beforePath="$PROJECT_DIR$/public/theme/frontend/default/thumbnail.jpg" afterPath="$PROJECT_DIR$/public/theme/frontend/default/thumbnail.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/css/article.css" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/css/article.css" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/css/general.css" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/css/general.css" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/css/goods.css" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/css/goods.css" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/css/index.css" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/css/index.css" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/css/info.css" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/css/info.css" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/css/login.css" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/css/login.css" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/css/order.css" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/css/order.css" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/css/pay.css" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/css/pay.css" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/css/prompt.css" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/css/prompt.css" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/css/search.css" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/css/search.css" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/css/user.css" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/css/user.css" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/iconfont/iconfont.css" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/iconfont/iconfont.css" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/iconfont/iconfont.eot" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/iconfont/iconfont.eot" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/iconfont/iconfont.svg" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/iconfont/iconfont.svg" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/iconfont/iconfont.ttf" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/iconfont/iconfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/iconfont/iconfont.woff" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/iconfont/iconfont.woff" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/images/400.png" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/images/400.png" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/images/404.png" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/images/404.png" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/images/cir-loading.gif" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/images/cir-loading.gif" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/images/logo.png" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/images/logo.png" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/images/no-avatar.gif" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/images/no-avatar.gif" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/images/opted.gif" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/images/opted.gif" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/images/prompt-default.gif" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/images/prompt-default.gif" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/images/prompt-error.gif" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/images/prompt-error.gif" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/images/prompt-success.gif" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/images/prompt-success.gif" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/images/rec-loading.gif" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/images/rec-loading.gif" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/index.html" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/index.html" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/js/cart.js" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/js/cart.js" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/js/consignee.js" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/js/consignee.js" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/js/goods.js" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/js/goods.js" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/js/image.js" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/js/image.js" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/js/order.js" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/js/order.js" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/js/search.js" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/js/search.js" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/js/verydows.mobile.js" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/js/verydows.mobile.js" />
+      <change beforePath="$PROJECT_DIR$/public/theme/mobile/green/js/zepto.min.js" afterPath="$PROJECT_DIR$/public/theme/mobile/morechic/js/zepto.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,56 +100,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/config.php">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/theme/mobile/morechic/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="29" column="65" lean-forward="true" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+            <state relative-caret-position="136">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="general_controller.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/controller/mobile/general_controller.php">
+      <file leaf-file-name="general.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/theme/mobile/morechic/css/general.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            <state relative-caret-position="169">
+              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_model.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/model/user_model.php">
+      <file leaf-file-name="verydows.mobile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/theme/mobile/morechic/js/verydows.mobile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="147" column="22" lean-forward="true" selection-start-line="147" selection-start-column="22" selection-end-line="147" selection-end-column="22" />
+            <state relative-caret-position="1024">
+              <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
               <folding>
-                <marker date="1516262792092" expanded="true" signature="4095:4194" ph="INSERT INTO $... " />
-                <marker date="1516262792092" expanded="true" signature="4219:4318" ph="INSERT INTO $... " />
-                <marker date="1516262792092" expanded="true" signature="4343:4595" ph="INSERT INTO $... " />
+                <marker date="1516262792000" expanded="true" signature="11351:12187" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wechat.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugin/oauth/wechat.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="79" column="45" lean-forward="true" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controller/api/user_controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="60" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -75,10 +139,24 @@
       <find>db_config</find>
       <find>crontab</find>
       <find>yii::$app-&gt;params</find>
+      <find>wechat</find>
+      <find>177cef</find>
+      <find>33cccc</find>
+      <find>layout</find>
+      <find>layout_adv</find>
+      <find>get_adv_codes_list</find>
+      <find>slider</find>
+      <find>pernum</find>
+      <find>cut</find>
     </findStrings>
     <replaceStrings>
       <replace>$GLOBALS</replace>
+      <replace>FF3333</replace>
+      <replace>ff6666</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,17 +166,37 @@
       <list>
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/protected/view/backend/panel.html" />
-        <option value="$PROJECT_DIR$/protected/view/backend/lib/header.html" />
         <option value="$USER_HOME$/wwwrootgitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/protected/lib/log.php" />
         <option value="$PROJECT_DIR$/protected/cache/log/Log_2018_01_28.log" />
-        <option value="$PROJECT_DIR$/protected/controller/main_controller.php" />
         <option value="$PROJECT_DIR$/protected/controller/mobile/main_controller.php" />
-        <option value="$PROJECT_DIR$/protected/config.php" />
         <option value="$PROJECT_DIR$/protected/include/functions.php" />
         <option value="$PROJECT_DIR$/plugin/oauth/wechat.php" />
+        <option value="$PROJECT_DIR$/protected/config.php" />
+        <option value="$PROJECT_DIR$/protected/view/backend/index.html" />
+        <option value="$PROJECT_DIR$/protected/view/backend/lib/meta.html" />
+        <option value="$PROJECT_DIR$/protected/controller/backend/main_controller.php" />
+        <option value="$PROJECT_DIR$/protected/cache/setting.php" />
+        <option value="$PROJECT_DIR$/protected/view/backend/lib/header.html" />
+        <option value="$PROJECT_DIR$/protected/controller/main_controller.php" />
+        <option value="$PROJECT_DIR$/protected/view/frontend/morechic/config.php" />
         <option value="$PROJECT_DIR$/protected/controller/mobile/general_controller.php" />
+        <option value="$PROJECT_DIR$/public/theme/frontend/morechic/css/general.css" />
+        <option value="$PROJECT_DIR$/public/theme/mobile/morechic/css/search.css" />
+        <option value="$PROJECT_DIR$/public/theme/mobile/morechic/css/index.css" />
+        <option value="$PROJECT_DIR$/public/theme/mobile/morechic/css/user.css" />
+        <option value="$PROJECT_DIR$/public/theme/mobile/morechic/css/order.css" />
+        <option value="$PROJECT_DIR$/public/theme/mobile/morechic/css/general.css" />
+        <option value="$PROJECT_DIR$/public/theme/mobile/morechic/css/goods.css" />
+        <option value="$PROJECT_DIR$/protected/view/mobile/morechic/index.html" />
+        <option value="$PROJECT_DIR$/protected/include/core.php" />
+        <option value="$PROJECT_DIR$/protected/cache/template/77d09ddb7ef63a2756fe681bd18e2a53.1523781212.1.html.php" />
+        <option value="$PROJECT_DIR$/protected/cache/template/28346cbdf12c03ec297dc03bc639703e.1523779327.index.html.php" />
+        <option value="$PROJECT_DIR$/protected/model/adv_model.php" />
+        <option value="$PROJECT_DIR$/protected/model/adv_position_model.php" />
+        <option value="$PROJECT_DIR$/protected/view/function/mobile_layout.php" />
+        <option value="$PROJECT_DIR$/protected/cache/static/adv_1.html" />
       </list>
     </option>
   </component>
@@ -116,7 +214,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="705" />
@@ -165,6 +263,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,43 +275,57 @@
             <path>
               <item name="shop.lauao" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop.lauao" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="shop.lauao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop.lauao" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="oauth" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="shop.lauao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop.lauao" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="shop.lauao" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop.lauao" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="shop.lauao" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop.lauao" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop.lauao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop.lauao" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="shop.lauao" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop.lauao" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="shop.lauao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop.lauao" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="theme" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop.lauao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop.lauao" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="theme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mobile" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop.lauao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop.lauao" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="theme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mobile" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="morechic" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,12 +335,15 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/protected/cache/log/Log_2018_01_28.log" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/theme/mobile" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public/theme/backend/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/protected/view/mobile" />
+      <recent name="$PROJECT_DIR$/public/theme/frontend" />
+      <recent name="$PROJECT_DIR$/protected/view/frontend" />
+      <recent name="$PROJECT_DIR$/public/theme/mobile" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -258,34 +375,39 @@
       <workItem from="1516629661469" duration="1173000" />
       <workItem from="1516631003015" duration="2057000" />
       <workItem from="1516633589143" duration="2439000" />
-      <workItem from="1517105831263" duration="13220000" />
+      <workItem from="1517105831263" duration="14399000" />
+      <workItem from="1519907414237" duration="598000" />
+      <workItem from="1519988640439" duration="330000" />
+      <workItem from="1520568105663" duration="7000" />
+      <workItem from="1523272583009" duration="542000" />
+      <workItem from="1523771884198" duration="10929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19576000" />
+    <option name="totallyTimeSpent" value="33161000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="705" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="699" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2657512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28513733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -294,17 +416,18 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2657512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28594506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,99 +444,73 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugin/oauth/weibo.php">
+    <entry file="file://$PROJECT_DIR$/plugin/oauth/wechat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/view/frontend/default/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/view/frontend/morechic/layout/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controller/api/oauth_controller.php">
+    <entry file="file://$PROJECT_DIR$/protected/model/order_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/wechat/wechat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/lib/abstract_oauth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/lib/plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="81" lean-forward="false" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controller/mobile/pay_controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="24" column="85" lean-forward="false" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controller/backend/database_controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1957">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/view/backend/prompt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/view/backend/panel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/model/setting_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="36" column="71" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="71" />
+        <state relative-caret-position="117">
+          <caret line="104" column="29" lean-forward="true" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
           <folding>
-            <marker date="1516262792090" expanded="true" signature="1402:1602" ph="SELECT SUM(d... " />
+            <marker date="1516262792089" expanded="true" signature="3036:3162" ph="SELECT order... $" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controller/backend/main_controller.php">
+    <entry file="file://$PROJECT_DIR$/protected/lib/utilities.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="168" column="37" lean-forward="true" selection-start-line="168" selection-start-column="37" selection-end-line="168" selection-end-column="37" />
-          <folding>
-            <marker date="1516262792066" expanded="true" signature="9328:9383" ph="SELECT ${{$c... " />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controller/backend/nav_controller.php">
+    <entry file="file://$PROJECT_DIR$/protected/cache/setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="77" column="38" lean-forward="false" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/theme/mobile/default/css/article.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="2" column="139" lean-forward="true" selection-start-line="2" selection-start-column="139" selection-end-line="2" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/theme/mobile/morechic/css/article.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="3" column="50" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/theme/frontend/morechic/js/cart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -421,15 +518,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/view/backend/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/protected/view/backend/setting/theme.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="140" column="35" lean-forward="false" selection-start-line="140" selection-start-column="24" selection-end-line="140" selection-end-column="35" />
+        <state relative-caret-position="5">
+          <caret line="57" column="77" lean-forward="false" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/cache/data/4d569a8bc25a20b9634d5fb3788ac319.php">
+    <entry file="file://$PROJECT_DIR$/public/theme/frontend/morechic/thumbnail.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/theme/frontend/morechic/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -437,69 +539,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="214">
-            <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
+    <entry file="file://$PROJECT_DIR$/public/theme/frontend/default/thumbnail.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/view/backend/index.html">
+    <entry file="file://$PROJECT_DIR$/protected/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-709">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+    <entry file="file://$PROJECT_DIR$/protected/view/frontend/morechic/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/lib/imager.php">
+    <entry file="file://$PROJECT_DIR$/protected/view/frontend/default/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="153">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_defines.php">
+    <entry file="file://$PROJECT_DIR$/public/theme/frontend/morechic/css/general.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3054">
-          <caret line="775" column="9" lean-forward="false" selection-start-line="775" selection-start-column="9" selection-end-line="775" selection-end-column="9" />
+        <state relative-caret-position="2142">
+          <caret line="116" column="32" lean-forward="true" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/cache/log/Log_2018_01_28.log">
+    <entry file="file://$PROJECT_DIR$/public/theme/mobile/morechic/css/search.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/lib/log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="35" column="61" lean-forward="true" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/lib/layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="249">
+          <caret line="47" column="49" lean-forward="false" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -512,137 +592,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/view/mobile/default/index.html">
+    <entry file="file://$PROJECT_DIR$/protected/view/mobile/morechic/lib/meta.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="150" column="49" lean-forward="true" selection-start-line="150" selection-start-column="49" selection-end-line="150" selection-end-column="49" />
+        <state relative-caret-position="102">
+          <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/install/resources/function.php">
+    <entry file="file://$PROJECT_DIR$/protected/view/mobile/morechic/lib/searcher.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controller/mobile/feedback_controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
+        <state relative-caret-position="-879">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/http/http.php">
+    <entry file="file://$PROJECT_DIR$/public/theme/mobile/morechic/css/order.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="2239" column="9" lean-forward="false" selection-start-line="2239" selection-start-column="9" selection-end-line="2239" selection-end-column="9" />
+        <state relative-caret-position="-468">
+          <caret line="40" column="67" lean-forward="false" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/resources/timer.txt">
+    <entry file="file://$PROJECT_DIR$/public/theme/mobile/morechic/css/goods.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-861">
+          <caret line="52" column="39" lean-forward="false" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/theme/mobile/morechic/css/user.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controller/mobile/oauth_controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MP_verify_d0MccJXQVFb0Usgo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/lib/utilities.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/view/mobile/default/lib/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controller/mobile/order_controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="146" column="14" lean-forward="false" selection-start-line="146" selection-start-column="14" selection-end-line="146" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controller/mobile/main_controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="238">
+          <caret line="11" column="137" lean-forward="false" selection-start-line="11" selection-start-column="137" selection-end-line="11" selection-end-column="137" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controller/main_controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="29" column="65" lean-forward="true" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/lib/verifier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/oauth/qq.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="94" column="21" lean-forward="true" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/view/mobile/default/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="96" lean-forward="false" selection-start-line="33" selection-start-column="88" selection-end-line="33" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/model/request_error_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <marker date="1516262792089" expanded="true" signature="1507:1628" ph="INSERT INTO $... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/script/md5.js">
+    <entry file="file://$PROJECT_DIR$/protected/view/adv/.gitkeep">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -650,25 +656,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/model/oauth_model.php">
+    <entry file="file://$PROJECT_DIR$/protected/controller/general_controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="-194">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/view/mobile/default/login.html">
+    <entry file="file://$PROJECT_DIR$/protected/view/frontend/default/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        <state relative-caret-position="97">
+          <caret line="87" column="43" lean-forward="false" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controller/mobile/goods_controller.php">
+    <entry file="file://$PROJECT_DIR$/protected/view/backend/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="166">
+          <caret line="82" column="58" lean-forward="false" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/lib/vcache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1211">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/lib/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -676,32 +698,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/include/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-5690">
           <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controller/user_controller.php">
+    <entry file="file://$PROJECT_DIR$/protected/cache/template/4477e65274fcdefe682de8e6af28ec62.1516262792.searcher.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="102" column="16" lean-forward="false" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="45" />
+        <state relative-caret-position="-807">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controller/mobile/user_controller.php">
+    <entry file="file://$PROJECT_DIR$/protected/cache/template/6d904f14d0982b2dccc853fc966338da.1516262792.footer.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/cache/template/28346cbdf12c03ec297dc03bc639703e.1523779327.index.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="45" column="50" lean-forward="false" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/cache/template/77d09ddb7ef63a2756fe681bd18e2a53.1523781212.1.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="8" column="119" lean-forward="true" selection-start-line="8" selection-start-column="119" selection-end-line="8" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/cache/template/95d8c33b531b0883aedc2a987e9ba27b.1523772240.meta.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/include/core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="261" column="68" lean-forward="false" selection-start-line="261" selection-start-column="61" selection-end-line="261" selection-end-column="68" />
+        <state relative-caret-position="17">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
           <folding>
             <marker date="1516262792078" expanded="true" signature="9161:9173" ph="DELETE FROM " />
             <marker date="1516262792078" expanded="true" signature="9516:9611" ph="INSERT INTO ${$this-&gt;table_name}... " />
@@ -711,38 +757,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controller/api/user_controller.php">
+    <entry file="file://$PROJECT_DIR$/protected/view/adv/1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="53" column="12" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="60" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" column="90" lean-forward="true" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugin/oauth/wechat.php">
+    <entry file="file://$PROJECT_DIR$/protected/model/adv_position_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="79" column="45" lean-forward="true" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+        <state relative-caret-position="252">
+          <caret line="54" column="76" lean-forward="false" selection-start-line="54" selection-start-column="76" selection-end-line="54" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/model/user_model.php">
+    <entry file="file://$PROJECT_DIR$/protected/model/adv_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="147" column="22" lean-forward="true" selection-start-line="147" selection-start-column="22" selection-end-line="147" selection-end-column="22" />
+        <state relative-caret-position="372">
+          <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
           <folding>
-            <marker date="1516262792092" expanded="true" signature="4095:4194" ph="INSERT INTO $... " />
-            <marker date="1516262792092" expanded="true" signature="4219:4318" ph="INSERT INTO $... " />
-            <marker date="1516262792092" expanded="true" signature="4343:4595" ph="INSERT INTO $... " />
+            <marker date="1523782398973" expanded="true" signature="1624:1880" ph="SELECT posit... $" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/view/function/mobile_layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controller/mobile/general_controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        <state relative-caret-position="-2">
+          <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/view/mobile/morechic/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controller/main_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/theme/mobile/morechic/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/theme/mobile/morechic/js/verydows.mobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1024">
+          <caret line="111" column="22" lean-forward="true" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+          <folding>
+            <marker date="1516262792000" expanded="true" signature="11351:12187" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/theme/mobile/morechic/css/general.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/theme/mobile/morechic/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/cache/static/adv_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="31" />
           <folding />
         </state>
       </provider>

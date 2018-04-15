@@ -144,7 +144,7 @@ class main_controller extends general_controller
                 $setting_model = new setting_model();
                 $sysinfo = array
                 (
-                    'vds_version' => "Verydows {$GLOBALS['verydows']['VERSION']} Release {$GLOBALS['verydows']['RELEASE']}",
+                    'vds_version' => "lauao {$GLOBALS['verydows']['VERSION']} Release {$GLOBALS['verydows']['RELEASE']}",
                     'server_ip' => $_SERVER['SERVER_ADDR'],
                     'server_os' => PHP_OS,
                     'server_soft' => $_SERVER['SERVER_SOFTWARE'],

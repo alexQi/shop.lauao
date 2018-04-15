@@ -1,10 +1,10 @@
 <?php 
 return array (
-  'site_name' => 'Lauao 商城系统',
-  'home_title' => 'Lauao 商城系统',
+  'site_name' => '漫初甜品商城',
+  'home_title' => '漫初甜品商城',
   'home_keywords' => '',
   'home_description' => '',
-  'footer_info' => '',
+  'footer_info' => '<p>漫初甜品商城</p>',
   'goods_search_per_num' => '20',
   'upload_filetype' => '.jpg|.jpeg|.gif|.png|.bmp|.swf|.flv|.avi|.rmvb',
   'upload_filesize' => '2MB',
@@ -20,7 +20,7 @@ return array (
   'admin_mult_ip_login' => '0',
   'upload_goods_filesize' => 307200.0,
   'visitor_stats' => '1',
-  'goods_hot_searches' => '',
+  'goods_hot_searches' => '钻石心,Lost',
   'cate_goods_per_num' => '20',
   'goods_history_num' => '5',
   'goods_related_num' => '5',
@@ -30,6 +30,8 @@ return array (
     0 => '.jpg',
     1 => '.png',
     2 => '.gif',
+    3 => '.jpeg',
+    4 => '',
   ),
   'show_goods_stock' => '0',
   'order_cancel_expires' => '2',
@@ -69,7 +71,7 @@ return array (
       'h' => 50,
     ),
   ),
-  'enabled_theme' => 'default',
+  'enabled_theme' => 'morechic',
   'user_consignee_limits' => '15',
   'upload_avatar_filesize' => '200KB',
   'order_delivery_expires' => '7',
@@ -77,7 +79,7 @@ return array (
   'user_review_approve' => '0',
   'rewrite_enable' => '1',
   'data_cache_lifetime' => '0',
-  'goods_fulltext_query' => '1',
+  'goods_fulltext_query' => '0',
   'debug' => '1',
   'rewrite_rule' => 
   array (
@@ -92,6 +94,6 @@ return array (
     'index.html' => 'main/index',
     '<c>/<a>.html' => '<c>/<a>',
   ),
-  'encrypt_key' => 'nyqaqWrk8ckkeigEvbvxblpYFfBI9JKm',
-  'http_host' => 'http://shop.lauao.com',
+  'encrypt_key' => 'Ifs0j%Q9@f@q%_04OlsSEONOxHBVszDb',
+  'http_host' => 'http://shop.lauao.test',
 );

@@ -1,0 +1,14 @@
+<script type="text/javascript">
+    $(function(){
+        $('#banner-index').vdsTouchSlider({slider:'.slider', child:'a', pernum:1, autoplay:true});
+    })
+</script>
+<div class="carousel cut" id="banner-index">
+    <div class="slider">
+        <{foreach $vars as $v}>
+        <{$v nofilter}>
+        <{/foreach}>
+    </div>
+    <div class="clearfix"></div>
+    <div class="trigger"></div>
+</div>
