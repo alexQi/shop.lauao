@@ -97,6 +97,7 @@ class user_controller extends general_controller
                         $res['status'] = 'success';
                         $res['avatar'] = substr($avatar, strrpos($avatar, $date));
                         $user_model = new user_model();
+                        $res['avatar'] = $GLOBALS['cfg']['http_host'].'/upload/user/avatar/'.$res['avatar'];
                         $user_model->update(array('user_id' => $user_id), array('avatar' => $res['avatar']));
                     }
                     else
