@@ -29,7 +29,8 @@ class general_controller extends Controller
             $wechatUser = $wechat->getAccessToken();
 //              var_dump($wechatUser);die();
 
-            if(!$user = $user_model->find(array('open_id' => $wechatUser->openid)))
+            if(false)
+//                if($user = $user_model->find(array('open_id' => $wechatUser->openid)))
             {
                 if(request('stay')) $user_model->stay_login($user['user_id'], $user['password'], $client_ip);
                 $user_model->set_logined_info($client_ip, $user['user_id'], $user['username'], $user['avatar']);
