@@ -88,6 +88,7 @@ return array (
     'api/pay/notify/<pcode>' => 'api/pay/notify',
     'api/oauth/callback/<party>' => 'api/oauth/callback',
     'm/index.html' => 'mobile/main/index',
+    'a/index.html' => 'backend/main/index',
     'm/<c>/<a>.html' => 'mobile/<c>/<a>',
     'api/<c>/<a>' => 'api/<c>/<a>',
     '404.html' => 'main/404',
