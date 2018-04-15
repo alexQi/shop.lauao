@@ -12,7 +12,7 @@ class general_controller extends Controller
             'theme' => $GLOBALS['cfg']['http_host'] . '/public/theme/mobile/' . $GLOBALS['cfg']['enabled_theme'],
         );
         utilities::crontab();
-        return ;
+//        return ;
         $client_ip = get_ip();
         if (empty($_SESSION['USER']['USER_ID']))
         {
