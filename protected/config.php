@@ -22,11 +22,11 @@ return array
     ),
     'wechat' => array
     (
-        'AppID'     => 'wx1bfc2ed71e8d48e3',
-        'AppSecret' => 'c43a4f7aac4863b667d9863d0051f6d2',
-        'Token'     => 'tianruiyuan',
+        'AppID'     => 'wxa361d238b92607b4',
+        'AppSecret' => 'ac0f02b70d5c11621e0b85a5d4e7d357',
+        'Token'     => 'morechic',
         'ApiUrl'    => 'api.weixin.qq.com',
-        'EncodingAESKey' => '1hfZHDMMGjSvL2sehimtkxpgdVJ88lAm7GL7Fv1DawK',
+        'EncodingAESKey' => 'hgCl8JV1q29i8Yrem9OZ9aCbY9PSAjj1SPFA1qfnNkm',
         'getToken'  => 'https://api.weixin.qq.com/cgi-bin/token',
     )
 );
