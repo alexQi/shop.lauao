@@ -52,11 +52,11 @@ function outSearch(){
     <a class="history" href="<{url c='mobile/user' a='footprint'}>"><div><i class="iconfont">&#xe613;</i></div><span>足迹</span></a>
   </div>
   <!-- newarrival start -->
+  <{if !empty($newarrival)}>
   <div class="lateral mt8">
     <div class="th">
       <h2><i class="icon"></i><font>新品上市</font></h2>
     </div>
-    <{if !empty($newarrival)}>
     <div class="gli">
       <div class="slider" id="latest">
         <ul>
@@ -72,15 +72,15 @@ function outSearch(){
         <div class="trigger mt5"></div>
       </div>
     </div>
-    <{/if}>
   </div>
+  <{/if}>
   <!-- newarrival end -->
   <!-- recommend start -->
+  <{if !empty($recommend)}>
   <div class="lateral mt8">
     <div class="th">
       <h2><i class="icon"></i><font>推荐商品</font></h2>
     </div>
-    <{if !empty($recommend)}>
     <div class="gli">
       <div class="slider" id="recommend">
         <ul>
@@ -96,15 +96,15 @@ function outSearch(){
         <div class="trigger mt5"></div>
       </div>
     </div>
-    <{/if}>
   </div>
+  <{/if}>
   <!-- recommend end -->
   <!-- bargain start -->
+  <{if !empty($bargain)}>
   <div class="lateral mt8">
     <div class="th">
       <h2><i class="icon"></i><font>特价促销</font></h2>
     </div>
-    <{if !empty($bargain)}>
     <div class="gli">
       <div class="slider" id="bargain">
         <ul>
@@ -120,8 +120,8 @@ function outSearch(){
         <div class="trigger mt5"></div>
       </div>
     </div>
-    <{/if}>
   </div>
+  <{/if}>
   <!-- bargain end -->
 </div>
 <div class="footnav absmu" id="footnav">
