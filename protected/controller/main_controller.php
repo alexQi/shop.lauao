@@ -9,7 +9,7 @@ class main_controller extends general_controller
 //            echo $_GET["echostr"];
 //        }
 //        die();
-        if(is_mobile_device() && request('display') != 'pc') jump(url('mobile/main', 'index'));
+        if(is_mobile_device()) jump(url('mobile/main', 'index'));
         
         $vcache = vcache::instance();
         
