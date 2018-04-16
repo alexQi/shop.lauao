@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="<{$common.theme}>/iconfont/iconfont.css">
     <link rel="stylesheet" type="text/css" href="<{$common.theme}>/css/index.css"/>
     <link rel="stylesheet" type="text/css" href="<{$common.theme}>/css/list.css"/>
+    <link rel="stylesheet" type="text/css" href="<{$common.theme}>/css/list_other.css"/>
     <script type="text/javascript" src="<{$common.theme}>/js/zepto.min.js"></script>
     <script type="text/javascript" src="<{$common.theme}>/js/verydows.mobile.js"></script>
     <script type="text/javascript">
@@ -66,20 +67,30 @@
         <div class="th">
             <h2><i class="icon"></i><font>新品上市</font></h2>
         </div>
-        <ul class="product_list" id="list_item">
+        <ul class="single_product_list hot_sale_tag" id="list_item">
             <{foreach $newarrival as $v}>
             <li>
-                <div class="content">
-                    <a href="<{url c='mobile/goods' a='index' id=$v.goods_id}>" params="sy-box310-1">
+                <a href="<{url c='mobile/goods' a='index' id=$v.goods_id}>" params="sy-box310-1">
+                    <div class="content">
+                        <sup>1</sup>
                         <div class="img_box">
                             <img src="<{$common.baseurl}>/upload/goods/prime/150x150/<{$v.goods_image}>" data-lazyload-adapter="product" style="opacity: 1; transition: opacity 0.3s;">
+                            <div class="disable_mark">已预定<{round(10,100)}>件</div>
                         </div>
-                        <p class="title"><{truncate($v.goods_name,40)}></p>
-                    </a>
-                    <div class="info_box">
-                        <em class="price"><span>¥</span><{$v.now_price}></em>
+                        <div class="info_box">
+                            <p class="title ellipsis_two"><em class="ict-zyb" data-name="自营"></em><{truncate($v.goods_name,40)}></p>
+
+                            <div class="last_box">
+                            </div>
+                            <div class="price_box">
+                                <div>
+                                    <div class="price"><span>¥</span><{$v.now_price}></div>
+                                </div>
+                                <div class="sell-num"><i></i><span>销量: <{round(100,1000)}></span></div>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </a>
             </li>
             <{/foreach}>
         </ul>
