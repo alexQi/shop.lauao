@@ -550,7 +550,8 @@ body {
     display: box;
     display: -ms-flexbox;
     display: flex;
-    position: relative
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
 }
 
 .single_product_list .img_box {
@@ -596,7 +597,6 @@ body {
     -moz-box-flex: 1;
     -webkit-flex: 1;
     flex: 1;
-    border-bottom: 1px solid #e6e6e6;
     padding-bottom: .5rem;
     font-size: 1.3rem
 }
