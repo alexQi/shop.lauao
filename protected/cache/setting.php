@@ -96,5 +96,5 @@ return array (
     '<c>/<a>.html' => '<c>/<a>',
   ),
   'encrypt_key' => 'Ifs0j%Q9@f@q%_04OlsSEONOxHBVszDb',
-  'http_host' => 'http://www.ccuui.com',
+  'http_host' => 'http://shop.lauao.test',
 );

@@ -5,7 +5,7 @@ return array
 (
     'mysql' => array
     (
-        'MYSQL_HOST' => 'www.ccuui.com',
+        'MYSQL_HOST' => 'www.lauao.com',
         'MYSQL_PORT' => '3306',
         'MYSQL_USER' => 'root',
         'MYSQL_DB'   => 'morechic',

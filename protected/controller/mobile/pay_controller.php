@@ -5,9 +5,27 @@ class pay_controller extends general_controller
     {
         $user_id = $this->is_logined();
         $order_model = new order_model();
-        if($this->order = $order_model->find(array('order_id' => request('order_id'), 'user_id' => $user_id)))
+        if($order = $order_model->find(array('order_id' => request('order_id'), 'user_id' => $user_id)))
         {
+            $user_model = new user_model();
+            $user_info  = $user_model->find(array('user_id'=>$user_id));
+            $order['open_id'] = $user_info['open_id'];
+
+            $order_goods_model = new order_goods_model();
+            $goods_info  = $order_goods_model->find(array('order_id'=>$order['order_id']));
+            $order['goods_name'] = $goods_info['goods_name'];
+
             $this->payment_list = vcache::instance()->payment_method_model('indexed_list');
+            if(isset($this->payment_list[0]))
+            {
+                $wechat = $this->payment_list[0];
+                $order_model->update(array('order_id' => $order['order_id']), array('payment_method' => 0));
+                $order['payment_method'] = 0;
+                $plugin = plugin::instance('payment', $wechat['pcode'], array($wechat['params']));
+                $res = $plugin->create_pay_url($order);
+                $this->jsConfig = $res;
+            }
+            $this->order = $order;
             $this->compiler('pay.html');
         }
         else

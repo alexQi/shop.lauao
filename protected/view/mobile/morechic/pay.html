@@ -1,65 +1,79 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<{include file='mobile/default/lib/meta.html'}>
-<title>支付订单 - <{$GLOBALS.cfg.site_name}></title>
-<link rel="stylesheet" type="text/css" href="<{$common.theme}>/css/general.css" />
-<link rel="stylesheet" type="text/css" href="<{$common.theme}>/iconfont/iconfont.css">
-<link rel="stylesheet" type="text/css" href="<{$common.theme}>/css/pay.css" />
-<script type="text/javascript" src="<{$common.theme}>/js/zepto.min.js"></script>
-<script type="text/javascript" src="<{$common.theme}>/js/verydows.mobile.js"></script>
-<script type="text/javascript">
-$(function(){
-  $('#payments dl').click(function(){
-    if(!$(this).hasClass('checked')){
-      $('#payments dl.checked').removeClass('checked');
-      $(this).addClass('checked');
-    }
-  });
-});
+    <{include file='mobile/default/lib/meta.html'}>
+    <title>支付订单 - <{$GLOBALS.cfg.site_name}></title>
+    <link rel="stylesheet" type="text/css" href="<{$common.theme}>/css/general.css"/>
+    <link rel="stylesheet" type="text/css" href="<{$common.theme}>/iconfont/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="<{$common.theme}>/css/pay.css"/>
+    <script type="text/javascript" src="<{$common.theme}>/js/zepto.min.js"></script>
+    <script type="text/javascript" src="<{$common.theme}>/js/verydows.mobile.js"></script>
+    <script type="text/javascript">
 
-function doPay(){
-  $.asynInter("<{url c='api/pay' a='url'}>", {order_id:$('#order_id').text(), payment_id:$('#payments dl.checked').data('pid'), device:'mobile'}, function(res){
-    if(res.status == 'success'){
-      window.location.href = res.url;
-    }else{
-      $.vdsPrompt({content:res.msg});
-    }
-  });
-}
-</script>
+        function doPay() {
+            callpay();
+        }
+
+        function jsApiCall() {
+            WeixinJSBridge.invoke(
+                'getBrandWCPayRequest',
+                "<{$jsConfig}>",
+                function (res) {
+                    if (res.err_msg == 'get_brand_wcpay_request:ok') {
+                        alert('支付成功');
+                        window.location.href = "<{url c='m/pay' a='view',id='111'}>";
+                    } else {
+                        alert('支付已取消');
+                    }
+                }
+            );
+        }
+
+        function callpay() {
+            if (typeof WeixinJSBridge == "undefined") {
+                if (document.addEventListener) {
+                    document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
+                } else if (document.attachEvent) {
+                    document.attachEvent('WeixinJSBridgeReady', jsApiCall);
+                    document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
+                }
+            } else {
+                jsApiCall();
+            }
+        }
+    </script>
 </head>
 <body>
 <div class="wrapper">
-  <!-- header start -->
-  <div class="header">
-    <div class="op lt"><a href="<{url c='mobile/order' a='view' id=$order.order_id}>"><i class="f20 iconfont">&#xe602;</i></a></div>
-    <h2>支付订单</h2>
-  </div>
-  <!-- header end -->
-  <div class="pay">
-    <div class="order">
-      <dl>
-        <dt>订单号：</dt>
-        <dd><b class="c555" id="order_id"><{$order.order_id}></b></dd>
-      </dl>
-      <dl>
-        <dt>金额：</dt>
-        <dd class="amount"><i class="f18 cny">¥</i><font class="f18 ml2"><{$order.order_amount}></font></dd>
-      </dl>
+    <!-- header start -->
+    <div class="header">
+        <div class="op lt"><a href="<{url c='mobile/order' a='view' id=$order.order_id}>"><i class="f20 iconfont">&#xe602;</i></a>
+        </div>
+        <h2>支付订单</h2>
     </div>
-    <div class="payment mt10" id="payments">
-      <{foreach $payment_list as $v}>
-      <dl<{if $order.payment_method == $v.id}> class="checked"<{/if}> data-pid="<{$v.id}>">
-        <dd class="fr"><a><i class="iconfont">&#xe61a;</i></a></dd>
-        <dd class="fl"><i class="iconfont payico-<{$v.pcode}>"></i></dd>
-        <dd class="desc"><p class="f14"><{$v.name}></p></dd>
-      </dl>
-      <{/foreach}>
-      <div class="more center"><font class="mr5">查看更多付款方式</font><i class="iconfont">&#xe615;</i></div>
+    <!-- header end -->
+    <div class="pay">
+        <div class="order">
+            <dl>
+                <dt>订单号：</dt>
+                <dd><b class="c555" id="order_id"><{$order.order_id}></b></dd>
+            </dl>
+            <dl>
+                <dt>金额：</dt>
+                <dd class="amount"><i class="f18 cny">¥</i><font class="f18 ml2"><{$order.order_amount}></font></dd>
+            </dl>
+        </div>
+        <div class="payment mt10" id="payments">
+            <{foreach $payment_list as $v}>
+            <dl <{if $order.payment_method == $v.id}> class="checked"<{/if}> data-pid="<{$v.id}>">
+                <dd class="fr"><a><i class="iconfont">&#xe61a;</i></a></dd>
+                <dd class="fl"><i class="iconfont payico-<{$v.pcode}>"></i></dd>
+                <dd class="desc"><p class="f14"><{$v.name}></p></dd>
+            </dl>
+            <{/foreach}>
+        </div>
+        <div class="submit mt20"><a class="xauto center" onclick="doPay()">付 款</a></div>
     </div>
-    <div class="submit mt20"><a class="xauto center" onclick="doPay()">付 款</a></div>
-  </div>
 </div>
 <{include file='mobile/default/lib/footer.html'}>
 </body>
