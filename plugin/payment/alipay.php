@@ -95,4 +95,8 @@ class alipay extends abstract_payment
         $sign = md5(substr($sign, 0, strlen($sign) - 1) . $this->config['key']);
         return $args . '&sign='. $sign . '&sign_type=MD5';
     }
+
+    public function log( $logthis ){
+        file_put_contents('../../protected/cache/log/logfile.log', date("Y-m-d H:i:s"). " " . $logthis. "\r\n", FILE_APPEND | LOCK_EX);
+    }
 }
