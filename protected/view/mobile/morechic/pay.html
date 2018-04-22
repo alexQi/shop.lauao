@@ -9,7 +9,7 @@
     <script type="text/javascript" src="<{$common.theme}>/js/zepto.min.js"></script>
     <script type="text/javascript" src="<{$common.theme}>/js/verydows.mobile.js"></script>
     <script type="text/javascript">
-
+        var jsonConfig = eval('(' +'<{$jsConfig nofilter}>'+')');
         function doPay() {
             callpay();
         }
@@ -17,7 +17,7 @@
         function jsApiCall() {
             WeixinJSBridge.invoke(
                 'getBrandWCPayRequest',
-                '<{$jsConfig nofilter}>',
+                jsonConfig,
                 function (res) {
                     if (res.err_msg == 'get_brand_wcpay_request:ok') {
                         alert('支付成功');
