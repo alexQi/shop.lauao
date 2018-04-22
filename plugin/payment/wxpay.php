@@ -210,6 +210,6 @@ class wxpay extends abstract_payment {
     }
 
     public function log( $logthis ){
-        file_put_contents('../../protected/cache/log/pay.log', date("Y-m-d H:i:s"). " " . $logthis. "\r\n", FILE_APPEND | LOCK_EX);
+        file_put_contents('/var/www/morechic/protected/cache/log/pay.log', date("Y-m-d H:i:s"). " " . $logthis. "\r\n", FILE_APPEND | LOCK_EX);
     }
 }
