@@ -131,8 +131,9 @@ class wxpay extends abstract_payment {
         return $buff;
     }
 
-    public function response($args) {
-        $this->log(json_encode($args));
+    public function response($xml) {
+        $this->log(json_encode($xml));
+        $args = $this->_xml_to_array($xml);
         if ($this->_verifier($args)) {
             $order_model = new order_model();
             $this->order = $order_model->find(array('order_id' => $args['out_trade_no']));
@@ -147,6 +148,13 @@ class wxpay extends abstract_payment {
             $this->message = '付款验证失败';
         }
         return false;
+    }
+
+    public function _verifier($args){
+        $sign = $this->MakeSign($args);
+        if($args['sign'] == $sign){
+            return true;
+        }
     }
 
     private function _get_prepayid($args) {

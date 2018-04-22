@@ -37,8 +37,9 @@ class pay_controller extends general_controller
         $payment_model = new payment_method_model();
         if($payment = $payment_model->find(array('pcode' => $pcode, 'enable' => 1), null, 'params'))
         {
+            $xml = file_get_contents("php://input");
             $plugin = plugin::instance('payment', $pcode, array($payment['params']));
-            if($plugin->response($_POST)) $res = 'success';
+            if($plugin->response($xml)) $res = 'success';
         }
         echo $res;
     }
