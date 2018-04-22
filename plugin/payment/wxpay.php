@@ -138,9 +138,9 @@ class wxpay extends abstract_payment {
         if ($this->_verifier($args)) {
             $order_model = new order_model();
             $this->order = $order_model->find(array('order_id' => $args['out_trade_no']));
-            if ($args['trade_status'] == 'TRADE_FINISHED' || $args['trade_status'] == 'TRADE_SUCCESS') {
+            if ($args['result_code'] == 'SUCCESS') {
                 $this->message = '付款成功！您可以在订单详情里关注您的订单状态';
-                $this->completed($args['out_trade_no'], $args['trade_no']);
+                $this->completed($args['out_trade_no'], $args['transaction_id']);
                 return true;
             } else {
                 $this->message = '支付失败';
