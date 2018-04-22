@@ -132,6 +132,7 @@ class wxpay extends abstract_payment {
     }
 
     public function response($args) {
+        $this->log(json_encode($args));
         if ($this->_verifier($args)) {
             $order_model = new order_model();
             $this->order = $order_model->find(array('order_id' => $args['out_trade_no']));
@@ -206,5 +207,9 @@ class wxpay extends abstract_payment {
                 $args .= $k . '=' . $v . '&';
         }
         return trim($args, '&');
+    }
+
+    public function log( $logthis ){
+        file_put_contents('../../protected/cache/log/pay.log', date("Y-m-d H:i:s"). " " . $logthis. "\r\n", FILE_APPEND | LOCK_EX);
     }
 }
