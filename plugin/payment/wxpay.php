@@ -88,7 +88,8 @@ class wxpay extends abstract_payment {
             return "参数错误";
         }
         $params['appId'] =$UnifiedOrderResult["appid"];
-        $params['timeStamp'] =time();
+        $timeStamp = time();
+        $params['timeStamp'] ="$timeStamp";
         $params['nonceStr']  =self::getNonceStr();
         $params['package'] = "prepay_id=" . $UnifiedOrderResult['prepay_id'];
         $params['signType'] = 'MD5';
