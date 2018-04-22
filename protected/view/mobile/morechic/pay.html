@@ -20,8 +20,7 @@
                 jsonConfig,
                 function (res) {
                     if (res.err_msg == 'get_brand_wcpay_request:ok') {
-                        alert('支付成功');
-                        window.location.href = "<{url c='m/pay' a='view',id='111'}>";
+                        window.location.href = "<{url c='mobile/pay' a='return',order_id=$order.order_id}>";
                     } else {
                         alert('支付已取消');
                     }
