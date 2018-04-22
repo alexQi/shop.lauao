@@ -49,21 +49,11 @@ class pay_controller extends general_controller
     
     public function action_return()
     {
-        $pcode = sql_escape(request('pcode', ''));
-        $payment_model = new payment_method_model();
-        if($payment = $payment_model->find(array('pcode' => $pcode, 'enable' => 1), null, 'params'))
+        $order_id = request('order_id', '');
+        $order_model = new order_model();
+        if($this->order = $order_model->find(array('order_id' => $order_id)))
         {
-            $plugin = plugin::instance('payment', $pcode, array($payment['params']));
-            if($plugin->response($_GET))
-            {
-                $this->status = 'success';
-            }
-            else
-            {
-                $this->status = 'error';
-            }
-            $this->message = $plugin->message;
-            $this->order = $plugin->order;
+            $this->message = '付款成功！您可以在订单详情里关注您的订单状态';
             $this->compiler('pay_return.html');
         }
         else
