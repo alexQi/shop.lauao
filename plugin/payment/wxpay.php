@@ -132,8 +132,9 @@ class wxpay extends abstract_payment {
     }
 
     public function response($xml) {
-        $this->log(json_encode($xml));
+
         $args = $this->_xml_to_array($xml);
+        $this->log(json_encode($args));
         if ($this->_verifier($args)) {
             $order_model = new order_model();
             $this->order = $order_model->find(array('order_id' => $args['out_trade_no']));
