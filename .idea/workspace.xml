@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c1877066-6a0a-44e3-92a3-131376ae9d4e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/protected/cache/setting.php" afterPath="$PROJECT_DIR$/protected/cache/setting.php" />
+      <change beforePath="$PROJECT_DIR$/protected/resources/timer.txt" afterPath="$PROJECT_DIR$/protected/resources/timer.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,19 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="order_controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controller/backend/order_controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="127" column="55" lean-forward="false" selection-start-line="127" selection-start-column="55" selection-end-line="127" selection-end-column="55" />
-              <folding>
-                <marker date="1525588973508" expanded="true" signature="1523:1585" ph="SELECT COUNT... " />
-                <marker date="1525588973508" expanded="true" signature="1821:2278" ph="SELECT a.id,... $" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="user_index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/view/mobile/morechic/user_index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,11 +35,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="general_controller.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="general_controller.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controller/mobile/general_controller.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
               <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/view/adv/1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wxpay_config.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/view/backend/payment/wxpay_config.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setting.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/cache/setting.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="99" column="2" lean-forward="true" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="operate_shipping.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/view/backend/order/operate_shipping.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-152">
+              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -72,40 +111,6 @@
             <state relative-caret-position="187">
               <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order_controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controller/mobile/order_controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_order_list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/view/mobile/morechic/user_order_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="52" column="6" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order_controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controller/api/order_controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="136" column="69" lean-forward="true" selection-start-line="136" selection-start-column="69" selection-end-line="136" selection-end-column="69" />
-              <folding>
-                <marker date="1525590183449" expanded="true" signature="5068:5161" ph="SELECT COUNT... " />
-                <marker date="1525590183449" expanded="true" signature="5993:6069" ph="SELECT COUNT... " />
-                <marker date="1525590183449" expanded="true" signature="7003:7090" ph="SELECT * FRO... $" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -201,7 +206,6 @@
         <option value="$PROJECT_DIR$/protected/controller/pay_controller.php" />
         <option value="$PROJECT_DIR$/protected/view/mobile/morechic/pay.html" />
         <option value="$PROJECT_DIR$/public/theme/mobile/morechic/css/user.css" />
-        <option value="$PROJECT_DIR$/protected/cache/setting.php" />
         <option value="$PROJECT_DIR$/protected/config.php" />
         <option value="$PROJECT_DIR$/protected/view/backend/order/operate_consignee.html" />
         <option value="$PROJECT_DIR$/protected/model/order_consignee_model.php" />
@@ -219,6 +223,7 @@
         <option value="$PROJECT_DIR$/protected/view/mobile/morechic/index.html" />
         <option value="$PROJECT_DIR$/plugin/payment/wxpay.php" />
         <option value="$PROJECT_DIR$/protected/controller/mobile/general_controller.php" />
+        <option value="$PROJECT_DIR$/protected/cache/setting.php" />
       </list>
     </option>
   </component>
@@ -308,14 +313,7 @@
               <item name="shop.lauao" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop.lauao" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="shop.lauao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop.lauao" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controller" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mobile" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="shop.lauao" type="b2602c69:ProjectViewProjectNode" />
@@ -400,12 +398,12 @@
       <workItem from="1523880784531" duration="8413000" />
       <workItem from="1524312310445" duration="22876000" />
       <workItem from="1525262182662" duration="1718000" />
-      <workItem from="1525583901739" duration="6219000" />
+      <workItem from="1525583901739" duration="7038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78292000" />
+    <option name="totallyTimeSpent" value="79111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="699" extended-state="6" />
@@ -465,7 +463,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugin/payment/WxPayUnifiedOrder.php" />
     <entry file="file://$PROJECT_DIR$/plugin/payment/balance.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -533,13 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="137" column="20" lean-forward="false" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/view/backend/payment/wxpay_config.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -655,14 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/cache/setting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="98" column="2" lean-forward="false" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/view/backend/order/operate_consignee.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -679,26 +661,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/model/order_consignee_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">
           <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/view/backend/order/operate_shipping.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -852,6 +818,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/view/adv/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/view/backend/payment/wxpay_config.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/view/backend/order/operate_shipping.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/cache/setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="99" column="2" lean-forward="true" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="2" />
           <folding />
         </state>
       </provider>
