@@ -5,7 +5,7 @@ class order_shipping_model extends Model
     
     public $rules = array
     (
-        'tracking_no' => array('is_required' => array(TRUE, '运单号不能为空'), 'max_length' => array(20, '运单号不能超过20个字符')),
+        'tracking_no' => array('is_required' => array(false, '运单号不能为空'), 'max_length' => array(20, '运单号不能超过20个字符')),
         'memos' => array('max_length' => array(240, '备注不能超过240个字符')),
     );
     

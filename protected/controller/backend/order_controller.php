@@ -97,6 +97,7 @@ class order_controller extends general_controller
             $vcache = vcache::instance();
             $payment_map = $vcache->payment_method_model('indexed_list');
             $shipping_map = $vcache->shipping_method_model('indexed_list');
+//            var_dump($shipping_map);die();
             $order['payment_method_name'] = $payment_map[$order['payment_method']]['name'];
             $order['shipping_method_name'] = $shipping_map[$order['shipping_method']]['name'];
 
@@ -156,7 +157,7 @@ class order_controller extends general_controller
                             'city' => trim(request('city', '')),
                             'borough' => trim(request('borough', '')),
                             'address' => trim(request('address', '')),
-                            'zip' => trim(request('zip', '')),
+                            'zip' => trim(request('zip', '0')),
                             'mobile' => trim(request('mobile', '')),
                         );
                         $consignee_model = new order_consignee_model();
@@ -166,6 +167,7 @@ class order_controller extends general_controller
                             if($consignee_model->update(array('order_id' => $order_id), $data) > 0)
                             {
                                 $cause = trim(request('cause', ''));
+                                $cause = $cause ? $cause : "收件人地址变更";
                                 $log_model = new order_log_model();
                                 $log_model->record($order_id, 'consignee', $cause);
                             }
@@ -265,7 +267,7 @@ class order_controller extends general_controller
                         (
                             'order_id' => $order_id,
                             'carrier_id' => (int)request('carrier_id', ''),
-                            'tracking_no' => request('tracking_no', ''),
+                            'tracking_no' => request('tracking_no', '0'),
                             'memos' => trim(request('memos', '')),
                             'dateline' => $_SERVER['REQUEST_TIME'],
                         );
@@ -344,6 +346,31 @@ class order_controller extends general_controller
         {
             $this->prompt('error', '订单不存在');
         }  
+    }
+
+    public function action_finish()
+    {
+        $id = request('id');
+        $condition = array('order_id' => $id);
+        $order_model = new order_model();
+        if($order = $order_model->find($condition))
+        {
+            if($order['order_status'] == 3)
+            {
+                $order_model->update(array('order_id' => $id), array('order_status' => 4));
+                $log_model = new order_log_model();
+                $log_model->record($id, 'finished', '确认订单送达');
+                $this->prompt('success', '确认送达完成', url($this->MOD.'/order', 'view', array('id' => $id)));
+            }
+            else
+            {
+                $this->prompt('error', '该订单无法确认送达');
+            }
+        }
+        else
+        {
+            $this->prompt('error', '订单不存在');
+        }
     }
     
 }

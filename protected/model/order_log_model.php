@@ -9,6 +9,7 @@ class order_log_model extends Model
         'amount' => '更改了订单金额',
         'cancel' => '取消了该笔订单交易',
         'resume' => '恢复了该笔订单交易',
+        'finished' => '完成了该订单交易',
     );
     /**
      * 记录订单日志

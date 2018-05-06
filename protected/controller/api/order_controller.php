@@ -114,7 +114,7 @@ class order_controller extends general_controller
             
             case 'ship': $sql .= " AND (order_status = 2 OR (order_status = 1 AND payment_method = 2))"; break;
             
-            case 'sign': $sql .= " AND order_status = 3"; break;
+            case 'arrived': $sql .= " AND order_status = 3"; break;
             
             case 'review': $sql .= " AND order_status = 4 AND order_id in (SELECT order_id FROM {$GLOBALS['mysql']['MYSQL_DB_TABLE_PRE']}order_goods WHERE is_reviewed = 0)"; break;
         }
@@ -134,7 +134,7 @@ class order_controller extends general_controller
             
             case 'ship': $where .= " AND (order_status = 2 OR (order_status = 1 AND payment_method = 2))"; break;
             
-            case 'sign': $where .= " AND order_status = 3"; break;
+            case 'arrived': $where .= " AND order_status = 3"; break;
             
             case 'review': $where .= " AND order_status = 4 AND order_id in (SELECT order_id FROM {$GLOBALS['mysql']['MYSQL_DB_TABLE_PRE']}order_goods WHERE is_reviewed = 0)"; break;
         }

@@ -78,8 +78,6 @@ function showOrders(){
     {@else if v.order_status == 1}
     {@if v.payment_method != 2}<a class="b1" href="<{url c='mobile/pay' a='index' order_id='${v.order_id}'}>">立即付款</a>{@/if}
     <a class="b2" href="<{url c='mobile/order' a='cancel' id='${v.order_id}'}>">取消订单</a>
-    {@else if v.order_status == 3}
-    <a class="b1" href="<{url c='mobile/order' a='delivered' id='${v.order_id}'}>">确认签收</a>
     {@else if v.order_status == 4}
     <a class="b1" href="<{url c='mobile/review' a='order' order_id='${v.order_id}'}>">评价</a>
     <a class="b2" href="<{url c='mobile/aftersales' a='order' order_id='${v.order_id}'}>">售后</a>

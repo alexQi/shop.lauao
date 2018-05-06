@@ -15,8 +15,8 @@ class wxpay extends abstract_payment {
             'nonce_str'    => self::getNonceStr(),
             'body'         => $args['goods_name'],
             'out_trade_no' => $args['order_id'],
-//            'total_fee'    => $args['order_amount'] * 100,
-            'total_fee'    => 1,
+            'total_fee'    => $args['order_amount'] * 100,
+//            'total_fee'    => 1,
             'openid'      => $args['open_id'],
             'attach'       => serialize("{$GLOBALS['cfg']['site_name']}订单-{$args['order_id']}"),
         );

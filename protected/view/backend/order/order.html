@@ -108,23 +108,38 @@ function closeOperate(pop_id){
       <button type="button" class="cbtn btn ml20 mr20" onclick="popOperate('pop-cancel')">取消交易</button>
       <{include file='backend/order/operate_cancel.html'}>
       <{/if}>
-      <{if $order.order_status > 1 || ($order.order_status > 0 && $order.payment_method == 2)}>
+      <{if $order.order_status == 2}>
       <button type="button" class="cbtn btn ml20 mr20" onclick="popOperate('pop-shipping')">发货配送</button>
       <{include file='backend/order/operate_shipping.html'}>
+      <{/if}>
+      <{if $order.order_status == 3}>
+      <button type="button" class="cbtn btn ml20 mr20" onclick="finishOrder(this)">确认送达</button>
+      <script>
+          function finishOrder(e){
+              $(e).vdsConfirm({
+                  text: '确认已送达该订单?',
+                  top: -25,
+                  left: 250,
+                  confirmed: function(){
+                      window.location.href= "<{url m=$MOD c='order' a='finish' id=$order.order_id}>";
+                  },
+              });
+          }
+      </script>
       <{/if}>
       <{if $order.order_status == 0}>
       <button type="button" class="cbtn btn ml20 mr20" onclick="popOperate('pop-resume')">恢复交易</button>
       <{include file='backend/order/operate_resume.html'}>
       <script type="text/javascript">
         function deleteOrder(e){
-          $(e).vdsConfirm({
-            text: '您确定要删除该订单吗? 删除后该订单将无法恢复!',
-            top: -25,
-            left: 300,
-            confirmed: function(){
-              window.location.href= "<{url m=$MOD c='order' a='delete' id=$order.order_id}>";
-            },
-          });
+            $(e).vdsConfirm({
+                text: '您确定要删除该订单吗? 删除后该订单将无法恢复!',
+                top: -25,
+                left: 300,
+                confirmed: function(){
+                    window.location.href= "<{url m=$MOD c='order' a='delete' id=$order.order_id}>";
+                },
+            });
         }
       </script>
       <button type="button" class="cbtn btn ml20 mr20" onclick="deleteOrder(this)">删除</button>
@@ -135,14 +150,14 @@ function closeOperate(pop_id){
       <table class="datalist">
         <tr>
           <th width="180">物流承运商</th>
-          <th width="180">运单号</th>
+          <!--<th width="180">运单号</th>-->
           <th width="150">发货日期</th>
           <th class="ta-l">备注</th>
         </tr>
         <{foreach $shipped_list as $v}>
         <tr>
           <td><{$v.carrier}></td>
-          <td><{$v.tracking_no}></td>
+          <!--<td><{$v.tracking_no}></td>-->
           <td><{date('Y-m-d H:i:s', $v.dateline)}></td>
           <td class="ta-l"><{if !empty($v.memos)}><{$v.memos}><{else}><font class="c999">无</font><{/if}></td>
         </tr>

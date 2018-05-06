@@ -28,7 +28,7 @@ class order_controller extends general_controller
         {
             case 'pay': $title = '待付款'; break;
             case 'ship': $title = '待发货'; break;
-            case 'sign': $title = '待签收'; break;
+            case 'arrived': $title = '待送达'; break;
             case 'review': $title = '待评价'; break;
             default: $title = '全部订单';
         }

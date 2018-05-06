@@ -32,7 +32,7 @@ class order_consignee_model extends Model
         ),  
         'zip' => array
         (
-            'is_zip' => array(TRUE, '邮编格式不正确'),
+            'is_zip' => array(false, '邮编格式不正确'),
         ),
         'mobile' => array
         (
