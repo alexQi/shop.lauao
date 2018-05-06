@@ -14,10 +14,6 @@ class user_consignee_model extends Model
         (
             'is_required' => array(TRUE, '详细地址不能为空'),
             'max_length' => array(240, '详细地址不能超过240个字符'),
-        ),  
-        'zip' => array
-        (
-            'is_zip' => array(TRUE, '邮编格式不正确'),
         ),
         'mobile' => array
         (

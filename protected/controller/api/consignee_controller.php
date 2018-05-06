@@ -26,7 +26,7 @@ class consignee_controller extends general_controller
             'city' => (int)request('city', 0, 'post'),
             'borough' => (int)request('borough', 0, 'post'),
             'address' => trim(strip_tags(request('address', '', 'post'))),
-            'zip' => trim(request('zip', '', 'post')),
+            'zip' => trim(request('zip', '0', 'post')),
             'mobile' => trim(request('mobile', '', 'post')),
         );
         
